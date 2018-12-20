@@ -1,0 +1,17 @@
+
+demo1 实现手写简单的RPC框架（单机版、多线程版），涉及的技术有： Socket通信、序列化反序列化、反射
+
+client包下面为 模拟服务的调用方，这里被调用的服务接口为CalculateService，其中ClientRPCUtil中包含了RPC框架客户端该做的一些公共操作
+
+server包下面为 模拟服务的执行方，里面有服务接口CalculateService真正的实现，其中ServerRPCUtil中包含了RPC框架服务端该做的一些公共操作
+
+
+
+注：代码没有很特意去关注异常分支的处理，主要还是为了学习并实践RPC的原理
+
+
+程序的运行入口：
+
+先启动 AppServerTest
+
+再启动 AppClientTest

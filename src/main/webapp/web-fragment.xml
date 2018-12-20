@@ -1,0 +1,26 @@
+<?xmlversion="1.0" encoding="UTF-8"?>
+
+<web-fragment>
+
+    <!--表示模块名称；-->
+    <name>TF1</name>
+
+    <!--部署的是一个监听器-->
+    <listener>
+        <listener-class>com.xiao.JAVAManito.javaeepractice.servlet.TestXiao</listener-class>
+    </listener>
+
+
+    <!--此模块的加载顺序；-->
+    <ordering>
+        <!--表示第一个加载；-->
+        <before>
+            <others/>
+        </before>
+
+        <!--表示比A后面加载；-->
+        <!--<after>-->
+        <!--<name>A</name>-->
+        <!--</after>-->
+    </ordering>
+</web-fragment>

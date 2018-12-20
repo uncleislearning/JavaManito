@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+    <entry key="squareShape">com.xiao.JAVAManito.designpattern.simplefactory.SquareShape</entry>
+    <entry key="circleShape">com.xiao.JAVAManito.designpattern.simplefactory.CircleShape</entry>
+</properties>
+
+
+
+
+
