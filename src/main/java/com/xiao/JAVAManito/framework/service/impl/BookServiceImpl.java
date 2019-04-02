@@ -4,6 +4,7 @@
 package com.xiao.JAVAManito.framework.service.impl;
 
 import com.xiao.JAVAManito.framework.annotations.Service;
+import com.xiao.JAVAManito.framework.annotations.Transactional;
 import com.xiao.JAVAManito.framework.dal.Book;
 import com.xiao.JAVAManito.framework.service.BookService;
 
@@ -22,6 +23,7 @@ public class BookServiceImpl implements BookService {
     }
 
     @Override
+    @Transactional
     public void deleteBook() {
 
     }

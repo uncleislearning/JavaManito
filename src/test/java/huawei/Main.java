@@ -151,15 +151,9 @@ public class Main {
 
     @Test
     public void test() {
-        int[] a = new int[100000];
-
-        System.out.println("GC开始前----a:" + a);
-        System.gc();
-        // System.out.println("GC开始后----a:"+a);
-
-
-        new Thread().start();
+        Map<Integer, Integer> s = new HashMap();
+        for (Map.Entry<Integer, Integer> i : s.entrySet()) {
+            System.out.println("llll");
+        }
     }
-
-
 }

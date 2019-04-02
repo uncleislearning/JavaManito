@@ -6,6 +6,7 @@ import org.springframework.jdbc.support.SQLExceptionTranslator;
 
 /**
  * Created by unclexiao on 14/05/2018.
+ *
  * 控制bean的lifecircle 之 bean 初始化 之后 进行动作
  */
 

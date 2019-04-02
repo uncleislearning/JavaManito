@@ -16,8 +16,6 @@ public abstract class AspectProxy implements Proxy {
 
 
     //钩子方法，用于通过各种方法的增强
-
-
     protected  void before(Class<?> cls, Method method, Object[] params){
 
     }
@@ -30,7 +28,6 @@ public abstract class AspectProxy implements Proxy {
 
     }
 
-
     protected  void begin(){
 
     }
@@ -38,7 +35,6 @@ public abstract class AspectProxy implements Proxy {
     protected  void end(){
 
     }
-
 
     @Override
     public Object doProxy(ProxyChain proxyChain) throws Throwable {

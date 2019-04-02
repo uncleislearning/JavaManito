@@ -1,5 +1,6 @@
 package com.xiao.JAVAManito.threadpool;
 
+import java.sql.Connection;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -40,6 +41,5 @@ public class MainTest {
         cashedThreadPool.shutdown();
         newScheduledThreadPool.shutdown();
         singleThreadExecutor.shutdown();
-
     }
 }
